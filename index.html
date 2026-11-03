@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Much Cleaner Carpet &amp; Upholstery | Calgary and Area</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
 <meta name="description" content="Much Cleaner Carpet &amp; Upholstery. Carpet, upholstery, stain, pet odour and mattress cleaning in Calgary and area. Over 30 years in business. Get a free estimate.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,9 +45,8 @@ a{color:inherit}
 header.nav{position:sticky;top:0;z-index:50;background:rgba(243,234,217,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--sand-deep)}
 header.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:20px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-.brand svg{width:50px;height:50px;flex:none}
-.brand b{display:block;font-family:var(--serif);font-weight:800;font-size:22px;line-height:1;letter-spacing:-.01em;color:var(--teal-deep)}
-.brand small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin-top:4px;font-weight:700}
+.brand img{height:66px;width:auto;flex:none}
+footer .brand img{height:72px}
 nav ul{display:flex;gap:30px;list-style:none;align-items:center}
 nav a{text-decoration:none;font-weight:500;font-size:16px;position:relative}
 nav a:not(.btn)::after{content:"";position:absolute;left:0;bottom:-5px;height:2px;width:0;background:var(--ochre);transition:width .25s}
@@ -173,8 +173,6 @@ form.sent .fields{display:none}
 /* footer */
 footer{background:var(--ink);color:var(--sand);padding:70px 0 30px}
 footer .top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:50px;padding-bottom:46px;border-bottom:1px solid rgba(243,234,217,.18)}
-footer .brand b{color:var(--sand)}
-footer .brand small{color:var(--ochre)}
 footer p{color:#b8c7c4;font-size:15px;margin-top:18px;max-width:340px}
 footer h4{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ochre);margin-bottom:14px}
 footer ul{list-style:none;display:grid;gap:8px}
@@ -224,8 +222,8 @@ footer .bottom a{color:var(--ochre);font-weight:700;text-decoration:none}
   body{font-size:16px}
   .wrap{width:calc(100% - 32px)}
   .strip .wrap{justify-content:center;text-align:center}
-  .brand b{font-size:18px}
-  .brand svg{width:42px;height:42px}
+  .brand img{height:46px}
+  footer .brand img{height:56px}
   .hero-tag{right:4px}
   .grid2{grid-template-columns:1fr}
   form{padding:28px 22px}
@@ -250,15 +248,7 @@ footer .bottom a{color:var(--ochre);font-weight:700;text-decoration:none}
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#home" aria-label="Much Cleaner Carpet and Upholstery, home">
-      <svg viewBox="0 0 64 64" aria-hidden="true" role="img">
-        <rect x="2" y="2" width="60" height="60" rx="8" fill="#0e5e63" stroke="#10292b" stroke-width="3"/>
-        <g stroke="#f3ead9" stroke-width="2" stroke-linecap="round" opacity=".35"><path d="M10 12h44M10 18h44M10 24h44M10 30h44"/></g>
-        <path d="M8 49 C 20 43, 34 55, 56 46" stroke="#e2a12c" stroke-width="7" fill="none" stroke-linecap="round"/>
-        <text x="32" y="36" text-anchor="middle" font-family="Georgia,serif" font-weight="800" font-size="27" fill="#fffaf0">MC</text>
-      </svg>
-      <span><b>Much Cleaner</b><small>Carpet &amp; Upholstery</small></span>
-    </a>
+    <a class="brand" href="#home" aria-label="Much Cleaner Carpet and Upholstery, home"><img src="images/logo.png" alt="Much Cleaner Carpet &amp; Upholstery" width="653" height="140"></a>
     <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav aria-label="Main">
       <ul id="menu">
@@ -413,15 +403,7 @@ footer .bottom a{color:var(--ochre);font-weight:700;text-decoration:none}
   <div class="wrap">
     <div class="top">
       <div>
-        <a class="brand" href="#home">
-          <svg viewBox="0 0 64 64" aria-hidden="true">
-        <rect x="2" y="2" width="60" height="60" rx="8" fill="#0e5e63" stroke="#f3ead9" stroke-width="3"/>
-        <g stroke="#f3ead9" stroke-width="2" stroke-linecap="round" opacity=".35"><path d="M10 12h44M10 18h44M10 24h44M10 30h44"/></g>
-        <path d="M8 49 C 20 43, 34 55, 56 46" stroke="#e2a12c" stroke-width="7" fill="none" stroke-linecap="round"/>
-        <text x="32" y="36" text-anchor="middle" font-family="Georgia,serif" font-weight="800" font-size="27" fill="#fffaf0">MC</text>
-      </svg>
-          <span><b>Much Cleaner</b><small>Carpet &amp; Upholstery</small></span>
-        </a>
+        <a class="brand" href="#home" aria-label="Much Cleaner Carpet and Upholstery, home"><img src="images/logo-light.png" alt="Much Cleaner Carpet &amp; Upholstery" width="653" height="140"></a>
         <p>Servicing Calgary and area! If Much Cleaner Carpet can't get it clean, no one can.</p>
       </div>
       <div>
